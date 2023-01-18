@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/roboto/Roboto-Bold.ttf);
+}
+
+.page {
+    @apply min-h-screen;
+}
+
+.btn-custom {
+    @apply w-1/4 mx-auto text-center p-4 border bg-gray-300 border-rose rounded-xl;
+}
+
+.btn-rose {
+    @apply w-1/4 mx-auto text-center p-4 border bg-gray-500 border-gray-200 rounded-xl;
+}
+
+.btn-emmeraude {
+    @apply w-1/4 mx-auto mt-4 text-center p-4 border bg-emerald-500 border-rose rounded-xl;
+}
+
+.navbar-gerant{
+    background-color: #F2AF5E;
+    font: Roboto-Bold;
+
+}
+
+.sidebar{
+    @apply fixed top-0 bottom-0 lg:left-0 p-2 w-1/6 overflow-y-auto text-center bg-orange navbar-gerant text-xl;
+}
+
+.grille{
+    @apply grid grid-cols-3 mt-20 mr-20 gap-8 pt-16;
+}
+.case-dashboard{
+    @apply  p-16
+}
+
+.onglet-gerant-on{
+    color: #F2AF5E;
+}
+
+.logo-nav-gerant{
+    background-color: white;
+}
+
+.bouton-gerant{
+    background-color: #9D82D8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.logo-white{
+    fill: white;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../Desktop/myresto_m2/ressources/font"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "myresto"
+	}
+}
