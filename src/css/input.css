@@ -36,8 +36,9 @@
 .grille{
     @apply grid grid-cols-3 mt-20 mr-20 gap-8 pt-16;
 }
+
 .case-dashboard{
-    @apply  p-16
+    @apply p-0 rounded;
 }
 
 .onglet-gerant-on{
